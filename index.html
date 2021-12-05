@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
@@ -17,19 +18,19 @@
         #text-hilltour {
             font-family: 'Zen Tokyo Zoo', cursive;
         }
-        
+
         #bg-header {
             background-image: url(https://images.pexels.com/photos/819805/pexels-photo-819805.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600);
             background-size: cover;
             background-position: center;
         }
-        
-        
+
+
         .card:hover img {
             filter: brightness(0.5);
             transition: 0.3s;
         }
-        
+
         .parallax {
             background-image: url("https://images.pexels.com/photos/819805/pexels-photo-819805.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600");
             background-attachment: fixed;
@@ -37,6 +38,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
         /* .card img {
             transition: 0.70s;
             -webkit-transition: 0.70s;
@@ -61,238 +63,249 @@
             transform: rotate(180deg);
         } */
     </style>
- <body onload="typeWriter();">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+</head>
+
+<body onload="typeWriter();">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="buy.html">Buy Used Bike</a>
-                        </li>
-                       <li class="nav-item">
-                            <a class="nav-link text-light" href="sell.html">Sell Bike</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="about.html">About</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link text-light" href="contact.html">Contact</a>
-                        </li> -->
-                    </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="buy.html">Buy Used Bike</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="sell.html">Sell Bike</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="bg-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5 py-5 text-white">
+                    <h5 class="card-title display-2 text-white" id="text-hilltour"></h5>
+                    <h1>We Are <strong>Leading</strong> Industry of Engineers</h1>
+                    <p id="typetext" class="text-white w-50"></p>
                 </div>
-            </nav>
-        </header>
-        <section id="bg-header">
-            <!-- <div class="bg-layer"> -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 px-0 my-5 py-5 text-white">
-                        <h5 class="card-title display-2 text-white" id="text-hilltour"></h5>
-                        <h1>We Are <strong>Leading</strong> Industry of Engineers</h1>
-                        <p id="typetext" class="text-white w-50"></p>
-
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-3 py-5 text-dark">
+            <div class="row">
+                <div class="col-sm text-center text-justify">
+                    <p class="text-warning h1">What can we offer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="card mb-3">
+                        <img src="bike1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Bike</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="card mb-3">
+                        <img src="bike2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Scooter</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
-        <section>
-            <div class="container my-3 py-5 text-dark">
-                <div class="row">
-                    <div class="col-sm text-center text-justify">
-                        <h1>
-                            <p class="text-warning">What can we offer</p>
-                        </h1>
-                       </div>
+        </div>
+    </section>
+    <section>
+        <div class="jumbotron text-center bg-warning my-5 rounded-0">
+            <h2 class="section-title mb-4">Explore Our <strong><br> New collection</strong></h2>
+        </div>
+    </section>
+    <section class="mb-5 pb-5" style="margin-top: -100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/3660527/pexels-photo-3660527.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600"
+                            alt="...">
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/1715193/pexels-photo-1715193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600"
+                            alt="...">
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600"
+                            alt="...">
+                    </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-12">
-                        <div class="card">
-                            <img src="bike1.jpeg" class="d-block mx-auto my-4" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Bike</h3>
+        </div>
+    </section>
+    <section class="my-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-justify text-warning">Some of our happy <br> Customer</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="card shadow mb-3">
+                        <div class="card-body">
+                            <img width="200" class="rounded-circle d-block mx-auto" src="user1.JPG" alt="">
+                            <h2 class="text-center my-4 text-warning">MATT KEYGEN</h2>
+                            <p class="text-justify">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                                deleniti iusto molestias, dolore vel fugiat ab placeat ea?”.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="card shadow mb-3">
+                        <div class="card-body">
+                            <img width="200" class="rounded-circle d-block mx-auto" src="user2.JPG" alt="">
+                            <h2 class="text-center my-4 text-warning">MATT KEYGEN</h2>
+                            <p class="text-justify">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                                deleniti iusto molestias, dolore vel fugiat ab placeat ea?”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-warning pb-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-12">
+                    <img style="margin-top: -60px;" class="img-fluid shadow"
+                        src="https://preview.colorlib.com/theme/engineers/images/xabout_1.jpg.pagespeed.ic.1lMdZH5Bgr.webp"
+                        alt="">
+                </div>
+                <div class="col-md-7 col-12">
+                    <div class="jumbotron bg-warning">
+                        <h3 class="display-4">WHY CHOOSE US</h3>
+                        <p class="lead">More than 50 year experience in industry</p>
+                        <hr class="my-4">
+                        <p>Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum perspiciatis
+                            error consequatur sit nulla.</p>
+                        <div class="text-center mb-5">
+                            <a href="contact.html" class="btn btn-dark rounded-pill px-5 shadow-none">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-12">
+                                        <span class="border border-secondary"></span>
+                                        <label for="exampleFormControlInput1"> Enter your name</label>
+                                        <input type="email" class="form-control" placeholder="Enter your name">
+                                    </div>
                                 </div>
+                                <div class="form-group">
+                                    <div class="col-12">
+                                        <label for="exampleFormControlInput1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="name@example.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-12">
+                                        <label for="exampleFormControlInput1">Your massage</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="enter your massage">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-block btn-primary">Send</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12">
-                        <div class="card">
-                            <img src="bike2.jpeg" class="d-block mx-auto my-4" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Scooter</h3>
-                              
-                            </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="card mb-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207956.23025809138!2d-97.67754665670977!3d35.47172221779327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b2174d1b76eb95%3A0x4d73d824ee7636e8!2sRain%20Oklahoma!5e0!3m2!1sen!2sin!4v1626872498030!5m2!1sen!2sin"
+                            style="border:0; width: 100%; height: 180px;" allowfullscreen="" loading="lazy"></iframe>
+                        <div class="card-body">
+                            <h2>Contact Us</h2>
+                            <p>Acme Outdoors<br>123 Rainy Street<br>Oklahoma City, OK 73129</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-         <section>
-            <div class="jumbotron text-center bg-warning my-5">
-                <h2 class="section-title mb-4">Explore Our <strong><br> New collection</strong></h2>
+        </div>
+    </section>
+    <footer class="bg-warning">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center mt-3">
+                        <a class="card-link text-dark" href="">2021 © BHritick</a>
+                    </p>
+                </div>
             </div>
-        </section>
-        <section class="mb-5 pb-5" style="margin-top: -100px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-12">
-                        <div class="card">
-                            <img src="https://images.pexels.com/photos/3660527/pexels-photo-3660527.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600" alt="...">
+        </div>
+    </footer>
+    <script>
+        var i = 0;
+        var txt = 'Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City.';
+        var speed = 50;
 
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-12">
-                        <div class="card">
-                            <img src="https://images.pexels.com/photos/1715193/pexels-photo-1715193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600" alt="...">
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-12">
-                        <div class="card">
-                            <img src="https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-       <section class="my-5 py-5">
-            <div class="col-sm text-center text-justify text-warning">
-               
-                <h2>Some of our happy <br> Customer</h2>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <div class="card shadow border-0 my-2">
-                            <div class="card-body">
-                                <img width="200" class="rounded-circle d-block mx-auto" src="user1.JPG" alt="">
-                                <h2 class="text-center my-4 text-warning">MATT KEYGEN</h2>
-                                <p class="text-justify">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto molestias, dolore vel fugiat ab placeat ea?”.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <div class="card shadow border-0 my-2">
-                            <div class="card-body">
-                                <img width="200" class="rounded-circle d-block mx-auto" src="user2.JPG" alt="">
-                                <h2 class="text-center my-4 text-warning">MATT KEYGEN</h2>
-                                <p class="text-justify">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto molestias, dolore vel fugiat ab placeat ea?”</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bg-warning pb-5 my-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-12">
-                        <img style="margin-top: -60px;" class="img-fluid shadow" src="https://preview.colorlib.com/theme/engineers/images/xabout_1.jpg.pagespeed.ic.1lMdZH5Bgr.webp" alt="">
-                    </div>
-                    <div class="col-md-7 col-12">
-                        <div class="jumbotron bg-warning">
-                            <h3 class="display-4">WHY CHOOSE US</h3>
-                            <p class="lead">More than 50 year experience in industry</p>
-                            <hr class="my-4">
-                            <p>Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum perspiciatis error consequatur sit nulla.</p>
-                            <div class="text-center mb-5">
-                                <a href="contact.html" class="btn btn-dark rounded-pill px-5 shadow-none">Contact us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container mt-5 pt-5">
-                <div class="row">
-                    <div class="col-md-6 col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <form>
-                                    <div class="form-group">
-                                        <div class="col-12">
-                                            <span class="border border-secondary"></span>
-                                            <label for="exampleFormControlInput1"> Enter your name</label>
-                                            <input type="email" class="form-control" placeholder="Enter your name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-12">
-                                            <label for="exampleFormControlInput1">Email address</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-12">
-                                            <label for="exampleFormControlInput1">Your massage</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your massage">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-12">
-                                            <button type="submit" class="btn btn-block btn-primary">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <div class="card">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207956.23025809138!2d-97.67754665670977!3d35.47172221779327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b2174d1b76eb95%3A0x4d73d824ee7636e8!2sRain%20Oklahoma!5e0!3m2!1sen!2sin!4v1626872498030!5m2!1sen!2sin"
-                                style="border:0; width: 100%; height: 180px;" allowfullscreen="" loading="lazy"></iframe>
-                            <div class="card-body">
-                                <h2>Contact Us</h2>
-                                <p>Acme Outdoors<br>123 Rainy Street<br>Oklahoma City, OK 73129</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="bg-warning">
-            <div class="containor">
-                <footer>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <p class="text-center mt-3">2021 © BHritick</p>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </footer>
-        <script>
-            var i = 0;
-            var txt = 'Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City.';
-            var speed = 50;
-
-            function typeWriter() {
-                if (i < txt.length) {
-                    document.getElementById("typetext").innerHTML += txt.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, speed);
-                }
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("typetext").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
             }
-        </script>
-
-    </body>
+        }
+    </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -300,6 +313,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     -->
+
+</body>
 
 
 </html>
